@@ -18,3 +18,18 @@ const DoesExist =lyrics.toLowerCase().includes(searchstring.toLowerCase());
 
 console.log(lyrics.indexOf('khala'));
 console.log(lyrics.indexOf('jano'));
+//-1 na jodi hoi ..... -1 na hole amra ki bujbo jinis ta nie
+if(lyrics.indexOf('shada')!== -1){
+
+console.log('exist inside the string');
+
+}else{
+    console.log('cannot find it');
+}
+// startwith
+// console.log(lyrics.startsWith('Tumi'));
+console.log(lyrics.startsWith('2umi'));
+// endwith
+const fileName ='mybiodata.pdf';
+const otherFile ='mypic.png';
+fileName.endsWith('.png');
