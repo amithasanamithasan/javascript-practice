@@ -11,6 +11,10 @@ const doesexist =lyricsLowerCase.includes(searchstring);
 
 // const doesexist=lyricsLowerCase.includes(SearchString);
 const DoesExist =lyrics.toLowerCase().includes(searchstring.toLowerCase());
-console.log(DoesExist);
+// console.log(DoesExist);
+// console.log(doesexist);
+// ----------------------------------------
+// index of found
 
-console.log(doesexist);
+console.log(lyrics.indexOf('khala'));
+console.log(lyrics.indexOf('jano'));
